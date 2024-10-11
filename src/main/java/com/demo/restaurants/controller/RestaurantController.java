@@ -14,6 +14,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/restaurant")
+@CrossOrigin
 public class RestaurantController {
     @Autowired
     RestaurantService service;
